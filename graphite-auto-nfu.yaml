@@ -62,7 +62,7 @@ Graphite Auto NFU:
       token-color-text-primary: rgba(19, 21, 54, 0.95)
       token-color-text-secondary: rgba(19, 21, 54, 0.95)
       token-color-text-disabled: rgba(19, 21, 54, 0.38)
-      #token-color-text-sidebar-selected: rgba(180, 39, 39, 0.95)
+      token-color-text-sidebar-selected: rgba(180, 39, 39, 0.95)
       token-color-text-sidebar: var(--token-color-text-secondary)
       token-color-text-label-badge: rgba(19, 21, 54, 0.7)
       token-color-text-chip: var(--token-color-black)
@@ -242,7 +242,7 @@ Graphite Auto NFU:
   divider-color: var(--token-color-background-divider)
   scrollbar-thumb-color: var(--token-color-background-scrollbar-thumb)
   disabled-color: var(--token-color-disabled)
-  mdc-theme-surface: var(--token-color-background-secondary)
+  #mdc-theme-surface: var(--token-color-background-secondary)
   # ..............................................................................
   # Feedback colors
   info-color: var(--token-color-feedback-info)
@@ -266,7 +266,7 @@ Graphite Auto NFU:
   sidebar-text-color: var(--sidebar-icon-color)
   sidebar-background-color: var(--token-color-background-sidebar)
   sidebar-selected-icon-color: var(--token-color-icon-sidebar-selected)
-  #sidebar-selected-text-color: var(--token-color-text-sidebar-selected)
+  sidebar-selected-text-color: var(--token-color-text-sidebar-selected)
   # ..............................................................................
   # Cards
   token-shadow-card-medium: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.40) inset, -0.5px -0.5px 1px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 2px 0px rgba(0, 0, 0, 0.10)
@@ -279,10 +279,10 @@ Graphite Auto NFU:
   ha-card-border-style: none
   ha-card-border: none
   ha-card-box-shadow: var(--token-shadow-card-medium)
-  paper-listbox-background-color: var(--primary-background-color)
-  paper-card-background-color: var(--ha-card-background)
-  rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
-  ha-card-backdrop-filter: blur(20px)
+  #paper-listbox-background-color: var(--primary-background-color)
+  #paper-card-background-color: var(--ha-card-background)
+  #rgb-card-background-color: rgb(10, 10, 10) # see https://github.com/basnijholt/lovelace-ios-themes/issues/60
+  #ha-card-backdrop-filter: blur(16px)
   # ..............................................................................
   # Sections
   ha-view-sections-column-gap: var(--token-size-spacing-medium)
@@ -306,12 +306,12 @@ Graphite Auto NFU:
   # ..............................................................................
   # Dialog
   mdc-dialog-scrim-color: var(--token-color-background-popup-scrim)
-  dialog-background-color: var(--token-color-background-dialog)
-  material-background-color: var(--token-color-background-dialog)
-  ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
-  dialog-box-shadow: var(--ha-card-box-shadow)
-  ha-dialog-surface-background: var(--ha-card-background)
-  background-color: var(--ha-card-background)
+  #dialog-background-color: var(--token-color-background-dialog)
+  #material-background-color: var(--token-color-background-dialog)
+  #ha-dialog-surface-backdrop-filter: var(--ha-card-backdrop-filter)
+  #dialog-box-shadow: var(--ha-card-box-shadow)
+  #ha-dialog-surface-background: var(--ha-card-background)
+  #background-color: var(--ha-card-background)
   # ..............................................................................
   # Slider
   paper-slider-knob-color: var(--token-color-primary)
@@ -335,7 +335,7 @@ Graphite Auto NFU:
   mdc-radio-unchecked-color: var(--mdc-checkbox-unchecked-color)
   # ..............................................................................
   # List items
-  #mdc-ripple-hover-opacity: var(--token-opacity-ripple-hover)
+  mdc-ripple-hover-opacity: var(--token-opacity-ripple-hover)
   # ..............................................................................
   # Text Fields and Dropdown
   input-background-color: var(--token-color-background-input-base)
@@ -348,14 +348,14 @@ Graphite Auto NFU:
   input-disabled-label-ink-color: var(--disabled-text-color)
   input-idle-line-color: var(--background-color)
   input-dropdown-icon-color: var(--secondary-text-color)
-  dropdown-background-color: var(--token-color-background-dialog)
+  #dropdown-background-color: var(--token-color-background-dialog)
   input-hover-line-color: var(--primary-color)
   mdc-select-idle-line-color: var(--color-background-base)
   mdc-text-field-idle-line-color: var(--mdc-select-idle-line-color)
-  mdc-select-fill-color: var(--token-color-background-dialog)
-  mdc-select-disabled-fill-color: var(--token-color-background-dialog)
-  mdc-menu-surface-color: var(--token-color-background-dialog)
-  paper-dialog-background-color: rgba(55, 55, 55, 0.8) # e.g., background of more-info
+  #mdc-select-fill-color: var(--token-color-background-dialog)
+  #mdc-select-disabled-fill-color: var(--token-color-background-dialog)
+  #mdc-menu-surface-color: var(--token-color-background-dialog)
+  #paper-dialog-background-color: rgba(55, 55, 55, 0.8) # e.g., background of more-info
   # ..............................................................................
   # Editor
   code-editor-background-color: var(--token-color-background-base)
